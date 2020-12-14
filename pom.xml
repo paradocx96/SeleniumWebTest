@@ -14,6 +14,7 @@
         <selenium-java.version>4.0.0-alpha-7</selenium-java.version>
         <testng.version>7.1.0</testng.version>
         <webdrivermanager.version>4.2.2</webdrivermanager.version>
+        <javafaker.version>1.0.2</javafaker.version>
     </properties>
 
     <dependencies>
@@ -37,6 +38,14 @@
             <artifactId>webdrivermanager</artifactId>
             <version>${webdrivermanager.version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>${javafaker.version}</version>
+        </dependency>
+
 
     </dependencies>
 
